@@ -5,7 +5,7 @@
 별도로 구성한 후, MLL로 완전히 공통된 Function 또는 Class Name으로 통합하여 아두이노와 같은 기능을 할 수 있도록 API화 시킨
 인베디드용 Framewokr이다.
 
-####간단하 실습
+#### 간단한 실습
 
 아직 윈도우os에서는 실행이 힘이 들어 가상머신을 이용해 우분투 리눅스에서 실습하였다. 
 
@@ -13,11 +13,11 @@
 아두이노 안에 있는 툴 체인을 사용 하기 위해 링크를 걸고 TESuit를 넣는다.
 터미널에서 
 
-'''
+<pre><code>
 sudo chmod a+re /dev/ttyACMO
  ln -s ../../TESuit/
 ln -s ../../TargetExpert/
-'''
+</code></pre>
 
  입력해준다.
 
