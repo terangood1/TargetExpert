@@ -13,12 +13,15 @@
 아두이노 안에 있는 툴 체인을 사용 하기 위해 링크를 걸고 TESuit를 넣는다.
 터미널에서 
 
-''sudo chmod a+re /dev/ttyACMO''
-'' ln -s ../../TESuit/''
-'' ln -s ../../TargetExpert/''  입력해준다.
+''
+sudo chmod a+re /dev/ttyACMO
+ ln -s ../../TESuit/
+ln -s ../../TargetExpert/
+''
+입력해준다.
 
 후에 CLION에서
-''
+''c
 main.c
  #include "Common.inc.h"
  #include <util/delay.h>
