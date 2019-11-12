@@ -52,3 +52,29 @@ main.c 생성 후
 </code></pre>
 
 후에 
+CMakeLists.txt 를 만든다
+
+<pre><code>
+
+project(${Project_Name} ${Language})
+add_executable(${Project_Name} main.c ${Src_Files})
+
+PostBuild_TE()
+
+
+cmake_minimum_required(VERSION 3.15)
+
+include(TESuit/TEInclude.cmake)
+
+Set_Target(armega328p)
+Set_TargetFreq(16000000)
+Set_JointInterface(arduino)
+Set_JointPort(/dev/ttyACM0)
+
+SET_Project(TESuit_Test)
+
+Init_TE()
+Prebuild_TE()
+
+project(${Project_Name} ${Language})
+</code></pre>
