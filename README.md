@@ -22,9 +22,9 @@ ln -s ../../TargetExpert/
  입력해준다.
 
 후에 CLION에서
-
+main.c 생성 후 
 <pre><code>
-main.c
+
  #include "Common.inc.h"
  #include <util/delay.h>
  
@@ -50,3 +50,5 @@ main.c
        return 0;
  }
 </code></pre>
+
+후에 
