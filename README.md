@@ -52,7 +52,7 @@ main.c 생성 후
 </code></pre>
 
 후에 
-CMakeLists.txt 를 만든다
+CMakeLists.txt 생성 후 작성
 
 <pre><code>
 
@@ -78,3 +78,8 @@ Prebuild_TE()
 
 project(${Project_Name} ${Language})
 </code></pre>
+
+usb와 아두이노의 연결을 확인 한 후에 실행시키면 LED가 깜빡이는 것을 확인 할 수 있다.
+앞으로는 더욱 쉽게 할 수  있도록 시행 중이라고 한다. 오픈소스로 인해 상업화가 힘들기 위해 이런한 생각을 내셨다고 한다.
+
+##### 김두훈 기술이사님에게 짧게 배워 틀린부분과 미흡한 부분이 많습니다. 자세한 내용은 https://github.com/TargetExpert/TargetExpert 확인 하실 수 있습니다. 감사합니다. 
