@@ -23,7 +23,7 @@ ln -s ../../TargetExpert/
 
 후에 CLION에서
 
-'''
+<pre><code>
 main.c
  #include "Common.inc.h"
  #include <util/delay.h>
@@ -49,4 +49,4 @@ main.c
        }
        return 0;
  }
- '''
+</code></pre>
